@@ -4,6 +4,10 @@ body{
     background-color: #123456;
   color: #ffff;
   }
+
+html {
+  scroll-behavior: smooth;
+}
   
 .header{
     background-color:#012345;

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Naavigation Bar -->
+     <div id="home">
+        <div id="change" class="navbar">
+            <div class="logo">
+                <a href="index.html"><img id="logo" class="logo" src="https://i.ibb.co/K77hPTT/Logo.png" alt="logo" width="150px"></a>
+            </div>
+            <nav>
+                <ul id="menu-items" class="normal">
+                    <a href="#feature"><li>Features</li></a>
+                    <a href="#second"><li>Find A Store</li></a>
+                    <a href="#rev"><li>Reviews</li></a>
+                    <a href="#cont"><li>Contact</li></a>
+    
+                </ul>
+            </nav>
+    
+            <div class="menu" onclick="menutoggle()"><i id="menu-icon" class='fa fa-bars'></i></div>
+        </div>
+    </div>
+
+        <!-- Introduction -->
+        <div class="first">
+            <div class="col-1 intro">
+                <h1 class="intro-text"><br>Stay Safe.<br>Stay Hydrated.<br>Choose Tupperware.</h2>
+                <a href="https://www.tupperwareindia.com/about-tupperware-india" target="_blank"><button><b>About Us</b></button></a>
+                <a href="https://shoptupperware.in/shop/water-bottle.html" target="_blank"><button><b>Buy</b></button></a>
+            </div>
+            <div class="col-1">
+                <img src="https://i.ibb.co/NpqNqqb/Bottle-Pic-1.png" alt="pic">
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!-- Features -->
+        <div class=feature id=feature style="padding-top: 300px; padding-bottom: 50px;">
+            <center style="padding-bottom: 100px;font-weight: bold;font-size: 40px;">FEATURES</center>
+            <div class="left-f" >
+                <div class="aa">#Chemical Free Plastic</div><br><br><br><div class="bb">#Very Difficult To Break</div><br><br><br><div class="cc">#Spill Proof</div>
+            </div>
+            <div class="right-f">
+                <div class="dd">#Compact Design</div><br><br><br><div class="ee">#Available in multiple colours</div><br><br><br><div class="ff">#Every Mother's Favourite</div>
+                </div>
+            <div class="feature-img"><img src="https://i.ibb.co/5s2HWyd/Feature-Bottle.png"></div>
+
+            
+        </div>
+       
+
+
+        <!-- Locate Store -->
+        <div class="second" id="second">
+            <div class="col-2-intro">
+                <h1 class="second-text"><br><br><br>Find A Store<br> Near You</h2>
+                <a href="https://www.google.com/maps/search/tupperware+store/@19.1871848,72.8370984,13z/data=!3m1!4b1" target="_blank"><button><b>Locate</b></button></a>
+            </div>
+            
+        </div>
+        <br>
+
+        <!-- Reviews -->
+
+        <center class="rev" id="rev" style="padding-bottom: 100px;font-weight: bold;font-size: 40px;">CUSTOMER REVIEWS</center>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+              <q>Great Bottles. Keeps the liquid inside cool for a long time. The plastic quality is also very good.</q>
+              <p class="author">-Ramesh,Mumbai</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>Very happy to receive my Tupperware set of 4 bottles. Received 4 different colours which has made my kitchen look prettier. It seems to be the original Tupperware bottles which I’ve used before and I’m very happy with the quality. Would recommend the same and planning to order some more.</q>
+              <p class="author">-Prakash,Ahemdabad</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>I am using this product for years, this is my Third Purchase..
+                Offcourse.. I liked it, that's why purchased third time... Wow... Good Product to rely upon...</q>
+              <p class="author">-Ashish,Kolkata</p>
+            </div>
+            <div class="mySlides">
+                <q>Great water bottles! Leak-proof and durable .... different sizes and colors to choose from
+                    Everyone in my house has a couple each, we love them....they are pricey for a bottle but lifetime guarantee</q>
+                <p class="author">-Priyanka,Chennai</p>
+              </div>
+
+            <div class="mySlides">
+                <q>Ghoomana Mat...</q>
+                <p class="author">-Mothers,All over India</p>
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+            </div>
+            
+        <!-- Register for news letter -->
+        <div class="container">
+          <h1 style="color: black; opacity: 1;border: black;border-width: 1px;">STAY CONNECTED<br>SUBSCRIBE TO OUR MONTHLY NEWSLETTER</h1>
+          
+          <input type="text" placeholder="Enter Your Email" name="email" id="email" required> <button type="submit" class="registerbtn">Subscribe</button>
+        </div> 
+    
+        <!-- Contact -->
+        <center>
+        <div class="cont" id="cont" style="padding-top: 20px;">
+            <a href="https://www.instagram.com/tupperware_india/?hl=en"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+            <a href="https://www.facebook.com/TupperwareIndia?ref=ts"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+            <a href="https://twitter.com/tupperwarein"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+
+
+        </div>
+        </center>
+
+
+    
+<hr style="color: black;">
+    <footer class="footer" style="text-align: center;font-size: 16px; font-weight: bold;padding-bottom: 10px;"> &#169; 2021 Tupperware Advait. All rights resered.</footer>
+    </body>
+</html>
